@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karachikafe.com/sitemap.xml
