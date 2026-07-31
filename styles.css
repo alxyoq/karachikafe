@@ -1424,6 +1424,47 @@ svg {
   display: none;
 }
 
+/* Website purchase */
+.purchase-website-button {
+  position: fixed;
+  z-index: 95;
+  right: 24px;
+  bottom: 24px;
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 22px;
+  border: 2px solid var(--lime);
+  border-radius: 999px;
+  color: var(--cream);
+  background: var(--pink);
+  box-shadow: 0 14px 36px rgba(21, 17, 15, 0.28);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition:
+    transform 180ms ease,
+    background 180ms ease;
+}
+
+.purchase-website-button:hover {
+  background: #bd0573;
+  transform: translateY(-2px);
+}
+
+.purchase-website-button:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .purchase-website-button {
+    right: 14px;
+    bottom: 78px;
+  }
+}
+
 /* Motion */
 .reveal {
   opacity: 0;
