@@ -623,7 +623,7 @@ svg {
 
 .ticker-track b {
   color: var(--lime-bright);
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 
 @keyframes ticker {
@@ -1431,10 +1431,10 @@ svg {
   right: 24px;
   bottom: 24px;
   display: inline-flex;
-  min-height: 50px;
+  min-height: 62px;
   align-items: center;
   justify-content: center;
-  padding: 13px 22px;
+  padding: 16px 28px;
   border: 2px solid var(--lime);
   border-radius: 999px;
   color: var(--cream);
